@@ -1,0 +1,7 @@
+﻿  Main.cpp
+  Texture.cpp
+C:\Users\aethi\source\repos\Snake3D\Texture.cpp(10,9): warning C4101: "texture": lokalna zmienna, do której nie istnieje odwołanie
+  VAO.cpp
+C:\Users\aethi\source\repos\Snake3D\VAO.cpp(11,63): warning C4244: "argument": konwersja z "GLsizeiptr" do "GLsizei", możliwa utrata danych
+  Generowanie kodu...
+  Snake3D.vcxproj -> C:\Users\aethi\source\repos\Snake3D\x64\Debug\Snake3D.exe
