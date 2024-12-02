@@ -48,6 +48,9 @@
     <ClCompile Include="Texture.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Variables.h">
@@ -68,6 +71,9 @@
     <ClInclude Include="Texture.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="default.vert">
@@ -76,9 +82,21 @@
     <None Include="default.frag">
       <Filter>Pliki zasobów\Shaders</Filter>
     </None>
+    <None Include="light.frag">
+      <Filter>Pliki zasobów\Shaders</Filter>
+    </None>
+    <None Include="light.vert">
+      <Filter>Pliki zasobów\Shaders</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\..\OneDrive\Dokumenty\NetBeansProjects\Zadanie7WielogorskiAdam\src\main\webapp\resources\images\rock_wall.jpg">
+      <Filter>Pliki zasobów\Textures</Filter>
+    </Image>
+    <Image Include="floor_ao.png">
+      <Filter>Pliki zasobów\Textures</Filter>
+    </Image>
+    <Image Include="floor.png">
       <Filter>Pliki zasobów\Textures</Filter>
     </Image>
   </ItemGroup>

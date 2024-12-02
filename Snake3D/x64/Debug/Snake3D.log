@@ -1,7 +1,6 @@
 ﻿  Main.cpp
-  Texture.cpp
-C:\Users\aethi\source\repos\Snake3D\Texture.cpp(10,9): warning C4101: "texture": lokalna zmienna, do której nie istnieje odwołanie
-  VAO.cpp
-C:\Users\aethi\source\repos\Snake3D\VAO.cpp(11,63): warning C4244: "argument": konwersja z "GLsizeiptr" do "GLsizei", możliwa utrata danych
-  Generowanie kodu...
+C:\Users\aethi\source\repos\Snake3D\Main.cpp(159,26): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+glfw3.lib(monitor.obj) : warning LNK4099: nie znaleziono pliku PDB „” z elementem „glfw3.lib(monitor.obj)” lub w pozycji „”; obiekt zostanie skonsolidowany bez informacji debugowania
+glfw3.lib(null_monitor.obj) : warning LNK4099: nie znaleziono pliku PDB „” z elementem „glfw3.lib(null_monitor.obj)” lub w pozycji „”; obiekt zostanie skonsolidowany bez informacji debugowania
+glfw3.lib(win32_joystick.obj) : warning LNK4099: nie znaleziono pliku PDB „” z elementem „glfw3.lib(win32_joystick.obj)” lub w pozycji „”; obiekt zostanie skonsolidowany bez informacji debugowania
   Snake3D.vcxproj -> C:\Users\aethi\source\repos\Snake3D\x64\Debug\Snake3D.exe

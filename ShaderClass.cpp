@@ -33,7 +33,7 @@ Shader::Shader(const char* vertexFile, const char* fragmentFile)
 	GLuint fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);
 	glShaderSource(fragmentShader, 1, &fragmentSource, NULL);
 	glCompileShader(fragmentShader);
-	CompileErrors(vertexShader, "FRAGMENT");
+	CompileErrors(fragmentShader, "FRAGMENT");
 
 	ID = glCreateProgram();
 	glAttachShader(ID, fragmentShader);
@@ -67,7 +67,7 @@ void Shader::CompileErrors(unsigned int shader, const char* type)
 		{
 
 			glGetShaderInfoLog(shader, 1024, NULL, infoLog);
-			std::cout << "SHADER_COMPILATION_ERROR for: " << type << "\n" << std::endl;
+			std::cout << "SHADER_COMPILATION_ERROR for: " << type << "\n" << infoLog  << std::endl;
 		}
 	}
 	else
@@ -77,7 +77,7 @@ void Shader::CompileErrors(unsigned int shader, const char* type)
 		{
 
 			glGetShaderInfoLog(shader, 1024, NULL, infoLog);
-			std::cout << "SHADER_LINKING_ERROR for: " << type << "\n" << std::endl;
+			std::cout << "SHADER_LINKING_ERROR for: " << type << "\n" << infoLog << std::endl;
 		}
 	}
 }

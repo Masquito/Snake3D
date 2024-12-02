@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Camera.cpp" />
     <ClCompile Include="EBO.cpp" />
     <ClCompile Include="glad.c" />
     <ClCompile Include="Main.cpp" />
@@ -150,6 +151,7 @@
     <ClCompile Include="VBO.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Camera.h" />
     <ClInclude Include="EBO.h" />
     <ClInclude Include="ShaderClass.h" />
     <ClInclude Include="Texture.h" />
@@ -160,9 +162,13 @@
   <ItemGroup>
     <None Include="default.frag" />
     <None Include="default.vert" />
+    <None Include="light.frag" />
+    <None Include="light.vert" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\..\OneDrive\Dokumenty\NetBeansProjects\Zadanie7WielogorskiAdam\src\main\webapp\resources\images\rock_wall.jpg" />
+    <Image Include="floor.png" />
+    <Image Include="floor_ao.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
